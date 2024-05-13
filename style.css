@@ -75,7 +75,7 @@
  }
 
  .campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: #e0e0f8;
+    background: #f8efe7;
  }
 
  .botao {
