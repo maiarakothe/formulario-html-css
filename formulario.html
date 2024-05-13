@@ -16,18 +16,18 @@
         <fieldset class="grupo">
             <div class="campo">
                 <label for="nome"><strong>Nome</strong></label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" required>
             </div>
 
             <div class="campo">
                 <label for="sobrenome"><strong>Sobrenome</strong></label>
-                <input type="text" name="sobrenome" id="sobrenome">
+                <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
         </fieldset>
 
         <div>
             <label for="email"><strong>Email</strong></label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
         </div>
 
         <div class="campo">
@@ -56,6 +56,7 @@
         <fieldset class="grupo">
             <div id="check">
                 <label for=""><strong>Selecione as tecnologias que utiliza:</strong> </label>
+                <br>
                 <input type="checkbox" id="tecnologia1" value="HTML">
                 <label for="tecnologia1">HTML</label>
                 <input type="checkbox" id="tecnologia2" value="CSS">
@@ -75,11 +76,11 @@
 
         <div class="campo">
             <br>
-            <label for=""><strong>Conte um pouco da sua experiência:</strong></label>
-            <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            <label for="experiencia"><strong>Conte um pouco da sua experiência:</strong></label>
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
         </div>
 
-        <button type="submit" class="botao">Concluído</button>
+        <button type="submit" class="botao" onsubmit="">Concluído</button>
     </form>
 </body>
 </html>
